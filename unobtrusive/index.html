@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+  <html class="no-js lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+  <!-->
+  <html class=no-js>
+<!--<![endif]-->
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Daniel Red</title>
+  <meta name=description content="Hi, I'm Daniel, a UX designer with roots in graphic design.">
+
+  <!--meta name="viewport" content="width=device-width, height=device-height"-->
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href=/favicon.ico>
+  <link rel=apple-touch-icon-precomposed href=/touchicons/webclip144.png>
+  <meta name=msapplication-TileColor content=#FFFFFF>
+  <meta name=msapplication-TileImage content=/icons/webclip144.png>
+  <link rel=apple-touch-icon-precomposed sizes=57x57 href=/touchicons/webclip57.png>
+  <link rel=apple-touch-icon-precomposed sizes=72x72 href=/touchicons/webclip72.png>
+  <link rel=apple-touch-icon-precomposed sizes=114x114 href=/touchicons/webclip114.png>
+  <link rel=apple-touch-icon-precomposed sizes=256x256 href=/touchicons/webclip256.png>
+
+  <!-- Twitter Card -->
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content="">
+  <meta name=twitter:creator content="">
+  <meta name=twitter:title content="Daniel Red">
+  <meta name=twitter:description content="Unobtrusive Interaction">
+  <meta name=twitter:image:src content=http://danielred.com/images/case1-2.jpg>
+  <link rel=stylesheet href="../styles/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  <script src="../scripts/breakpoint.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+  <script type=text/javascript>
+    WebFontConfig = {
+        google: { families: ['Open+Sans::latin', 'Exo+2:200,400,700:latin'] }
+      };
+      (function() {
+      var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })()
+
+    // Unveil plugin - lazy load images
+
+    $(function() {
+          $("figure img").unveil(400, function() {
+        $(this).load(function() {
+          this.style.opacity = 1;
+        });
+      });
+    });
+
+  </script>
+</head>
+<body id="home">
+  <div class="anchor">
+    <a class="anchor-button" onclick="goToByScroll('home')" href="javascript:void(0)"><img src="../images/top.svg"></a>
+  </div>
+  <div class="logo">
+      <a href="/"><img class="logo-img" src="../images/logo.svg"></a>
+  </div>
+  <div class="nav">
+    <a class="contact-button menu" href="#">About me</a>
+  </div>
+  <div class="nav-fixed">
+    <a class="contact-button menu" href="#">About me</a>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="about">
+    <div class="about-close-button">
+      <a href="#" class="menu"><img src="../images/close.svg"></a>
+    </div>
+    <div class="logo-contact">
+      <a href="/"><img src="../images/logo2.svg"></a>
+    </div>
+    <div class="tile tile-about">
+      <div class="text-about">
+        <p>Hi, I'm Daniel, a visual &amp; interaction designer</p>
+        <p>I have passion about concept development and designing unique experiences. Currently,
+          I work at Telefónica Innovation in Barcelona. In the past, I've lived in Sweden,
+          UK and Italy, where I've met some awesome people at great places like North Kingdom or Insight.
+          Besides design, I'm interested in data analysis and machine learning.</p>
+      </div>
+    </div>
+    <div class="links-contact">
+      <a href="mailto:mail@danielred.com"><h3>email</h3></a>
+      <a href="https://www.linkedin.com/in/daniel-red-4a903325/" target=_blank><h3>Linkedin</h3></a>
+    </div>
+  </div>
+
+  <!-- ////// CASE ////// -->
+  <section id="work" class="tile projects-container">
+    <div class="tile tile-case-header">
+      <h1>Unobtrusive interaction</h1>
+      <p>The challenges of creating unobtrusive technology applied to wearable devices and extreme sports.</p>
+    </div>
+    <figure class="tile tile-image">
+      <div id="video1-overlay" class="video-overlay">
+        <div id="play1" class="play-button">
+          <img src="../images/play-button.svg">
+        </div>
+      </div>
+      <video id="video1" class="video" poster="../images/case1-video1.jpg" muted preload="auto" loop>
+        <source src="../images/unobtrusive-snow.mp4" type="video/mp4">
+        <source src="../images/unobtrusive-snow.webm" type="video/webm">
+        <source src="../images/unobtrusive-snow.ogv" type="video/ogg">
+      </video>
+    </figure>
+    <article class="tile tile-case-description">
+        <h3>Research  ·  interaction design<h3>
+        <h2>How can we design technology that doesn't require our attention?</h2>
+        <p>Currently, mobile and wearable technology demand too much of our attention. Research studies point that we are even experiencing difficulties to focus on our tasks or changes in our behavior. For example, it is common to interrupt our conversation with other people to attend the phone every time it starts ringing. Extreme sports is a area with high demands of unobtrusiveness for the technology. Atheletes in the field cannot afford giving attention to their devices. However, they may benefit greatly by using the information that technology is able to provide them.</p>
+    </article>
+    <figure class="tile tile-image">
+      <div id="video2-overlay" class="video-overlay">
+        <div id="play2" class="play-button">
+          <img src="../images/play-button.svg">
+        </div>
+      </div>
+      <video id="video2" class="video" poster="../images/case1-video2.jpg" muted preload="auto" loop>
+        <source src="../images/unobtrusive-fog.mp4">
+        <source src="../images/unobtrusive-fog.mp4" type="video/mp4">
+        <source src="../images/unobtrusive-fog.webm" type="video/webm">
+        <source src="../images/unobtrusive-fog.ogv" type="video/ogg">
+      </video>
+    </figure>
+    <article class="tile tile-case-description">
+        <p>During my master thesis I worked in partnership with the research team of Swedish Interactive Institute to research and develop the interaction design of a pair of glasses for skiing and mountain biking. The development of this head-up display makes use of the theoretical principles of activity theory and affective computing as a framework for HCI. The findings of the research propose changes in the design guidelines to avoid relying on active manipulation.</p>
+    </article>
+  </section>
+
+  <section class="tile tile-contact-bottom">
+    <div class="contact-bottom-container">
+      <div class="contact-bottom-title">
+        <h1>I'm always looking for interesting challenges and new friends.</h1>
+      </div>
+      <a class="button menu" href="#">Contact</a>
+    </div>
+  </section>
+</main>
+
+<script src="../scripts/main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27211777-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
