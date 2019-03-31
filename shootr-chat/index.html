@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+  <html class="no-js lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+  <!-->
+  <html class=no-js>
+<!--<![endif]-->
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Daniel Red</title>
+  <meta name=description content="Hi, I'm Daniel, a UX designer with roots in graphic design.">
+
+  <!--meta name="viewport" content="width=device-width, height=device-height"-->
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href=/favicon.ico>
+  <link rel=apple-touch-icon-precomposed href=/touchicons/webclip144.png>
+  <meta name=msapplication-TileColor content=#FFFFFF>
+  <meta name=msapplication-TileImage content=/icons/webclip144.png>
+  <link rel=apple-touch-icon-precomposed sizes=57x57 href=/touchicons/webclip57.png>
+  <link rel=apple-touch-icon-precomposed sizes=72x72 href=/touchicons/webclip72.png>
+  <link rel=apple-touch-icon-precomposed sizes=114x114 href=/touchicons/webclip114.png>
+  <link rel=apple-touch-icon-precomposed sizes=256x256 href=/touchicons/webclip256.png>
+
+  <!-- Twitter Card -->
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content="">
+  <meta name=twitter:creator content="">
+  <meta name=twitter:title content="Daniel Red">
+  <meta name=twitter:description content="Shootr Chat">
+  <meta name=twitter:image:src content=http://danielred.com/images/shootrchat-1-2.jpg>
+  <link rel=stylesheet href="../styles/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../scripts/jquery.unveil.js"></script>
+
+  <script type=text/javascript>
+    WebFontConfig = {
+        google: { families: ['Open+Sans::latin', 'Exo+2:200,400,700:latin'] }
+      };
+      (function() {
+      var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })()
+
+    // Unveil plugin - lazy load images
+
+    $(function() {
+          $("figure img").unveil(400, function() {
+        $(this).load(function() {
+          this.style.opacity = 1;
+        });
+      });
+    });
+
+  </script>
+</head>
+<body id="home">
+  <div class="anchor">
+    <a class="anchor-button" onclick="goToByScroll('home')" href="javascript:void(0)"><img src="../images/top.svg"></a>
+  </div>
+  <div class="logo">
+      <a href="/"><img class="logo-img" src="../images/logo.svg"></a>
+  </div>
+  <div class="nav">
+    <a class="contact-button menu" href="#">About me</a>
+  </div>
+  <div class="nav-fixed">
+    <a class="contact-button menu" href="#">About me</a>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="about">
+    <div class="about-close-button">
+      <a href="#" class="menu"><img src="../images/close.svg"></a>
+    </div>
+    <div class="logo-contact">
+      <a href="/"><img src="../images/logo2.svg"></a>
+    </div>
+    <div class="tile tile-about">
+      <div class="text-about">
+        <p>Hi, I'm Daniel, a visual &amp; interaction designer</p>
+        <p>I have passion about concept development and designing unique experiences. Currently,
+          I work at Telefónica Innovation in Barcelona. In the past, I've lived in Sweden,
+          UK and Italy, where I've met some awesome people at great places like North Kingdom or Insight.
+          Besides design, I'm interested in data analysis and machine learning.</p>
+      </div>
+    </div>
+    <div class="links-contact">
+      <a href="mailto:mail@danielred.com"><h3>email</h3></a>
+      <a href="https://www.linkedin.com/in/daniel-red-4a903325/" target=_blank><h3>Linkedin</h3></a>
+    </div>
+  </div>
+
+  <!-- ////// CASE ////// -->
+  <section id="work" class="tile projects-container">
+    <div class="tile tile-case-header">
+      <h1>Shootr Chat</h1>
+      <p>A chat platform for video streaming</p>
+    </div>
+    <figure class="tile tile-image">
+      <img src="../images/shootrchat-1-2.jpg"
+        data-src="../images/shootrchat-1-3.jpg" alt="Shootr chat">
+    </figure>
+    <article class="tile tile-case-description tile-case-description-dark">
+        <h2>How does Shootr Chat work</h2>
+        <p>Shootr is a chat platform for both traditional TV channels and modern streaming platforms.
+          It is a powerful tool for creators to engage, retain and monetise the audience. It enhances
+          the whole viewing experience.
+          <br><br>
+          In order to use Shootr, clients integrate our SDK within their app, TV or website.
+          After the integration, chats can be created and managed with the Control Panel or with the API.
+          <br><br>
+          Once the SDK is set up, their users have the chat together with the video. However, for those
+          that prefer the traditional viewing experience, there is the possibility to hide the chat,
+          which is my favorite feature.
+          <br><br>
+          Users have the option to chat with everyone in a massive conversation or chat with only
+          a selected group of friends.</p>
+        <div class="tile-case-description-second">
+          <h2>Prototypes</h2>
+          <p>These prototypes are small examples of how a user navigates through the Chat and the Control Panel.</p>
+          <a class="button button-case-description" href="https://www.figma.com/proto/IFQALILPeSoINblz39327jz5/Shootr-TV?node-id=250%3A96&viewport=-667%2C420%2C0.094687&scaling=min-zoom" target="_blank">Chat</a>
+          <a class="button button-case-description" href="https://www.figma.com/proto/gQqmfqboHZ7HaDMlMM9g2fYf/Dashboard-ENG?node-id=216%3A0&viewport=305%2C110%2C0.0514698&scaling=min-zoom" target="_blank">Control Panel</a>
+        </div>
+    </article>
+    <figure class="tile tile-image">
+      <img src="../images/shootrchat-2-2.jpg"
+        data-src="../images/shootrchat-2-3.jpg" alt="Shootr chat">
+    </figure>
+    <article class="tile tile-case-description tile-case-description-dark">
+        <h2>Role</h2>
+        <p>As the only member of UX in the company, I have the following responsabilities:
+          <br><br>
+          - Evangelise and lead the UX area in the company.<br>
+          - Define the product by identifying opportunities and propose a strategy to develop the product.<br>
+          - Lead the design of all platforms. Chat on mobile, tablet, TV and web; Control Panel website.<br>
+          - Lead the UX research.</p>
+    </article>
+    <article class="tile tile-case-description">
+        <h2>UX challenges</h2>
+        <p>One of the many challenges of this project is the fact that it would be integrated in many
+          different video players and platforms. For example, video players have different controls and
+          can be located on any place in the screen. Our chat shoudn’t be an issue to access them. Similarly,
+          many TV channels place their brand and static information on different places on the screen.
+          <br><br>
+          Most imporantly, we had to take care of the user: avoid being annoying to those who just want to
+          watch the video; provide powerful tools to block offensive content and prevent the chat from
+          becoming overloaded when a massive audience is typing at the same time. Moreover, we should provide
+          a SDK that is not only easy to integrate but in the same time has a powerful API to manage chats.
+          <br><br>
+          In addition, the interaction woudn’t be the same whether the chat is on a TV, a computer or a phone.
+          This meant we had to design separate versions of the chat for each platform.
+          <br><br>
+          Finally, the main challenge designing the Control Panel was its information architecture. We wanted
+          to create a tool useful for both traditional TV channels and modern streaming platforms, which are
+          two different worlds in many aspects.</p>
+    </article>
+    <figure class="tile tile-image">
+      <img src="../images/shootrchat-3-2.jpg"
+        data-src="../images/shootrchat-3-3.jpg" alt="Shootr chat">
+    </figure>
+    <article class="tile tile-case-description">
+        <h2>UX solutions</h2>
+        <p>We show only two things to users that interact with the chat for the first time: drag the chat to
+          move it, and swipe the chat to hide it. We recognise these aspects as the most important of the
+          experience to prevent that the chat becomes something undesirable: covering any of the controls
+          of the video player or blocking any important information, like the score when watching a football
+          match.
+          <br><br>
+          We explored each platform separately while designing the overall experience in order to provide the
+          best characteristics for each  platform. For example, the interaction with the chat on the TV works
+          similarly to Google Chromecast: when mobile and TV are on the same WiFi, the app can control what
+          is happening on the TV. This highly increases the possibilities of interaction.
+          <br><br>
+          We made lots of interviews and usability tests to people from the industry to get first hand
+          knowledge. We wanted to make sure that not only the chat was attractive to them but the tools that
+          we were building around it were powerful and useful enough.</p>
+    </article>
+  </section>
+
+  <section class="tile tile-contact-bottom">
+    <div class="contact-bottom-container">
+      <div class="contact-bottom-title">
+        <h1>I'm always looking for interesting challenges and new friends.</h1>
+      </div>
+      <a class="button menu" href="#">Contact</a>
+    </div>
+  </section>
+</main>
+
+<script src="../scripts/main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27211777-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
