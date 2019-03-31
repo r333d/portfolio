@@ -42,7 +42,7 @@ table {
     border-spacing: 0;
 }
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
     margin:0;
     padding:0;
 }
@@ -50,7 +50,7 @@ table {
     border-collapse:collapse;
     border-spacing:0;
 }
-fieldset,img { 
+fieldset,img {
     border:0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
@@ -95,13 +95,13 @@ h1{
 	font-size: 1.8rem;
 	line-height: 1.4em;
 	font-weight: 200;
-	font-family: 'Exo 2', sans-serif; 
+	font-family: 'Exo 2', sans-serif;
 }
 h2{
 	font-size: 1.4rem;
 	line-height: 1.2em;
 	font-weight: 200;
-	font-family: 'Exo 2', sans-serif; 
+	font-family: 'Exo 2', sans-serif;
 }
 
 h3{
@@ -390,7 +390,7 @@ a:hover{
 	.tile-about{
 		width: 60%;
 		left: 25px;
-		bottom: 25%;	
+		bottom: 25%;
 	}
 }
 
@@ -446,7 +446,7 @@ a:hover{
 
 .tile-header {
     display:block;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     max-height: 1500px;
     z-index: 700;
@@ -460,7 +460,7 @@ a:hover{
 		-o-background-size: cover;
 		background-size: cover;
 	}
-} 
+}
 
 @media (max-width: 600px){
 	.tile-header{
@@ -470,7 +470,7 @@ a:hover{
 		-o-background-size: cover;
 		background-size: cover;
 	}
-} 
+}
 
 .header-title{
     position: absolute;
@@ -545,6 +545,7 @@ a:hover{
 .tile-image{
 	width: 100%;
 	height: auto;
+  background-color: #000;
 }
 
 .tile-image img{
@@ -725,19 +726,36 @@ figure img{
 
 .tile-case-description{
 	text-align: left;
-    width: 75%;
-    max-width: 800px;
-    margin: 8em 0 8em 5%;
+  width: 75%;
+  max-width: 800px;
+  padding: 8em 100% 8em 5%;
 }
 
 @media (max-width: 600px){
 	.tile-case-description{
-		margin: 4em 0 4em 5%;
+		padding: 4em 100% 4em 5%;
 	}
 }
 
 .tile-case-description h3, .tile-case-description h2{
 	padding-bottom: 1em;
+}
+
+.tile-case-description-dark{
+  background-color: #000000;
+}
+
+.tile-case-description-dark h2, .tile-case-description-dark h3{
+  color: #ffffff;
+}
+
+.button-case-description {
+  margin: 3em 2em 0 0;
+  display: inline-block;
+}
+
+.tile-case-description-second {
+  margin-top: 4em;
 }
 
 .video-overlay {
