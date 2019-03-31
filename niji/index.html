@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+  <html class="no-js lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]>
+  <!-->
+  <html class=no-js>
+<!--<![endif]-->
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Daniel Red</title>
+  <meta name=description content="Hi, I'm Daniel, a UX designer with roots in graphic design.">
+
+  <!--meta name="viewport" content="width=device-width, height=device-height"-->
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href=/favicon.ico>
+  <link rel=apple-touch-icon-precomposed href=/touchicons/webclip144.png>
+  <meta name=msapplication-TileColor content=#FFFFFF>
+  <meta name=msapplication-TileImage content=/icons/webclip144.png>
+  <link rel=apple-touch-icon-precomposed sizes=57x57 href=/touchicons/webclip57.png>
+  <link rel=apple-touch-icon-precomposed sizes=72x72 href=/touchicons/webclip72.png>
+  <link rel=apple-touch-icon-precomposed sizes=114x114 href=/touchicons/webclip114.png>
+  <link rel=apple-touch-icon-precomposed sizes=256x256 href=/touchicons/webclip256.png>
+
+  <!-- Twitter Card -->
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content="">
+  <meta name=twitter:creator content="">
+  <meta name=twitter:title content="Daniel Red">
+  <meta name=twitter:description content="Shootr Chat">
+  <meta name=twitter:image:src content=http://danielred.com/images/shootrchat-1-2.jpg>
+  <link rel=stylesheet href="../styles/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../scripts/jquery.unveil.js"></script>
+
+  <script type=text/javascript>
+    WebFontConfig = {
+        google: { families: ['Open+Sans::latin', 'Exo+2:200,400,700:latin'] }
+      };
+      (function() {
+      var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })()
+
+    // Unveil plugin - lazy load images
+
+    $(function() {
+          $("figure img").unveil(400, function() {
+        $(this).load(function() {
+          this.style.opacity = 1;
+        });
+      });
+    });
+
+  </script>
+</head>
+<body id="home">
+  <div class="anchor">
+    <a class="anchor-button" onclick="goToByScroll('home')" href="javascript:void(0)"><img src="../images/top.svg"></a>
+  </div>
+  <div class="logo">
+      <a href="/"><img class="logo-img" src="../images/logo.svg"></a>
+  </div>
+  <div class="nav">
+    <a class="contact-button menu" href="#">About me</a>
+  </div>
+  <div class="nav-fixed">
+    <a class="contact-button menu" href="#">About me</a>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="about">
+    <div class="about-close-button">
+      <a href="#" class="menu"><img src="../images/close.svg"></a>
+    </div>
+    <div class="logo-contact">
+      <a href="/"><img src="../images/logo2.svg"></a>
+    </div>
+    <div class="tile tile-about">
+      <div class="text-about">
+        <p>Hi, I'm Daniel, a visual &amp; interaction designer</p>
+        <p>I have passion about concept development and designing unique experiences. Currently,
+          I work at Telefónica Innovation in Barcelona. In the past, I've lived in Sweden,
+          UK and Italy, where I've met some awesome people at great places like North Kingdom or Insight.
+          Besides design, I'm interested in data analysis and machine learning.</p>
+      </div>
+    </div>
+    <div class="links-contact">
+      <a href="mailto:mail@danielred.com"><h3>email</h3></a>
+      <a href="https://www.linkedin.com/in/daniel-red-4a903325/" target=_blank><h3>Linkedin</h3></a>
+    </div>
+  </div>
+
+  <!-- ////// CASE ////// -->
+  <section id="work" class="tile projects-container">
+    <div class="tile tile-case-header">
+      <h1>Niji</h1>
+      <p>Improving the experience of mobile browsing</p>
+    </div>
+    <figure class="tile tile-image">
+      <img src="../images/niji-2-2.jpg"
+        data-src="../images/niji-2-3.jpg" alt="Niji">
+    </figure>
+    <article class="tile tile-case-description">
+        <h2>How does Niji work</h2>
+        <p>Niji is a service that users can forget that it exists while enjoying that their internet
+          connection has additional features. The website offers statistics and multiple options
+          to manage the features.
+          <br><br>
+          Once a user activate Niji, it looks at the data that comes from websites to block anything
+          that the user does not want to, such as ads, trackers, or virus, before it reachs the user’s
+          mobile. Niji does not look at data that is encrypted, such as websites with the protocol HTTPS,
+          because one our core values is to support online privacy and security.
+          <br><br>
+          Some advantages against similar services are that users do not need to download any app on
+          their phones and there is no impact on battery life or the general functioning of the device.</p>
+    </article>
+    <figure class="tile tile-image">
+      <img src="../images/niji-3-2.jpg"
+        data-src="../images/niji-3-3.jpg" alt="Niji">
+    </figure>
+    <article class="tile tile-case-description tile-case-description-dark">
+        <h2>Role</h2>
+        <p>As UX designer, my responsability was to design how the product was going to be used by the
+          user, including designing new features, user flows, UI, ensuring that the design was correctly
+          implemented by the developers, and presenting my work to other members of the team  and skateholders.</p>
+    </article>
+    <figure class="tile tile-image">
+      <img src="../images/niji-4-2.jpg"
+        data-src="../images/niji-4-3.jpg" alt="Niji">
+    </figure>
+    <article class="tile tile-case-description">
+        <h2>UX challenges</h2>
+        <p>When I started in October 2015, the team was getting the product ready for our first trial with
+          Telefónica employees.
+          <br><br>
+          Initial research showed that our potential users did not fully understand some of our value propositions,
+          such as online privacy and security, and consequently they did not pay much attention to that. They related
+          more with our other features regarding blocking ads and saving data. However, blocking ads was a major concern
+          as Telefonica had numerous strategic advertising partnerships.
+          <br><br>
+          Another important challenge was to manage users expectations and technical limitations. Many websites and apps use
+          the secure protocol HTTPS which means that data is encrypted and our service does not work. However, users were
+          often not aware whether they were under HTTPS or, even if they knew, they expected our service to work.
+          <br><br>
+          In addition, ussability tests with users showed that users had several problems to navigate through the website and,
+          overall, to understand the statistics and other information. Besides, it was very difficult to activate the service
+          in our first trials.
+          <br><br>
+          During 1 year, we released 3 closed trials within different Mobile Operators and users: Telefonica employees, clients
+          of Tuenti Spain, and clients of Movistar Peru. As we were integrated with each of the Mobile Operators in order to
+          function, we had to adapt the service each time. Changes often involved to modify how some of our features work, users
+          flows like activate the service, and the UI of our website.</p>
+    </article>
+    <figure class="tile tile-image">
+      <img src="../images/niji-5-2.jpg"
+        data-src="../images/niji-5-3.jpg" alt="Niji">
+    </figure>
+    <article class="tile tile-case-description">
+        <h2>UX solutions</h2>
+        <p>First, we designed new user flows, such as how to activate the service, and re-created the website with a completely
+          different UI, style and navigation, tackling all the problems that we had seen in our research.
+          <br><br>
+          We created stories through the app that explained the importance of concepts such as online privacy, security, https and more.
+          We changed the tone so the illustrations and writing felt closer and relatable to our users. Often, the goal was to create
+          interest in learning rather than to explain everything. The tone and the approach was very well received and it was completely
+          different from other security services of Telefonica.
+          <br><br>
+          We tested different versions of our feature for blocking advertising. The objective was to find the right balance between the
+          corporate point of view and provide the most value to our users. We settled in blocking only the most annoying ads: pop-ups,
+          auto-play videos and sounds. Not only those ads are annoying but they consume a lot of data.
+          <br><br>
+          Most of the changes implemented were well received according with our surveys, user interviews and raw usage data.</p>
+      <div class="tile-case-description-second">
+        <h2>Results</h2>
+        <p>Niji began as a technical innovation. We created a commercial product in 1 year. Just before I left, we were getting ready
+          to launch with other two subsidiaries of Telefónica. Also, the project had been funded to launch in 6 countries in 2017.
+          This rapid grow and support is outstanding in a company like Telefónica.
+          <br><br>
+          The team received awards inside the company for excellent results and collaboration between different areas. For example, we got an
+          award for our collaboration with Tuenti Spain, a Telefónica subsidiary, to launch the trial with them.</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="tile tile-contact-bottom">
+    <div class="contact-bottom-container">
+      <div class="contact-bottom-title">
+        <h1>I'm always looking for interesting challenges and new friends.</h1>
+      </div>
+      <a class="button menu" href="#">Contact</a>
+    </div>
+  </section>
+</main>
+
+<script src="../scripts/main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27211777-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
