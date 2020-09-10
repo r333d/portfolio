@@ -470,6 +470,9 @@ header{
 }
 
 @media (max-width: 600px){
+	.tile-header{
+		height: 50%;
+	}
 	.header-title{
 		width: 90%;
 	}
