@@ -292,10 +292,12 @@ header{
 	width: 24px;
 	height: 24px;
 	opacity: 80%;
+	padding: 5px;
 }
 
 .nav-about:hover{
 	opacity: 100%;
+	background-color: #e30913;
 }
 
 .nav-about a img{
@@ -343,7 +345,7 @@ header{
 	position: fixed;
 	top: 0;
 	right: 0;
-	background-color: #e30913;
+	background-color: #212121;
 	z-index: 1400;
 }
 
@@ -388,6 +390,10 @@ header{
 .text-about h1{
 	color: #fff;
 	font-weight: 700;
+}
+
+.link-about{
+	color: #FA3C45;
 }
 
 .about-image{
