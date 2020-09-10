@@ -37,9 +37,9 @@ function goToByScroll(id){
      	$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
 }
 
-// MENU
+// ABOUT SLIDE
 
-$('.menu').click(function() {
+$('.slider-about').click(function() {
   $('.about').slideToggle();
   return false;
 });

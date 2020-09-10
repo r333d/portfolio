@@ -15,7 +15,7 @@
 <head>
   <meta charset=utf-8>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Daniel Red</title>
+  <title>Daniel Redondo - Portfolio</title>
   <meta name=description content="Hi, my  name is Daniel Red. I am a designer with focus on human interaction and visual communication.">
 
   <!--meta name="viewport" content="width=device-width, height=device-height"-->
@@ -42,7 +42,7 @@
 
   <script type=text/javascript>
     WebFontConfig = {
-        google: { families: ['Open+Sans::latin', 'Exo+2:200,700:latin'] }
+        google: { families: ['Playfair+Display:400,700:latin','Open+Sans::latin', 'Exo+2:200,700:latin'] }
       };
       (function() {
       var wf = document.createElement('script');
@@ -64,39 +64,67 @@
   <div class="logo">
     <a href="/"><img class="logo-img" src="images/logo.svg"></a>
   </div>
+
   <div class="nav">
-    <a class="contact-button menu" href="#">About me</a>
+    <ul>
+      <li><a class="menu nav-mobile-hidden" href=mailto:mail@danielred.com>mail@danielred.com</a></li>
+      <li><a class="menu nav-mobile-hidden" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-redondo-4a903325/">Linkedin</a></li>
+      <li><a class="menu slider-about" href="#">About</a></li>
+    </ul>
   </div>
+  <!--
   <div class="nav-fixed">
-    <a class="contact-button menu" href="#">About me</a>
+    <ul>
+      <li><a class="menu" href=mailto:mail@danielred.com>Email</a></li>
+      <li><a class="menu" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-redondo-4a903325/">Linkedin</a></li>
+      <li><a class="menu" href="#">About</a></li>
+    </ul>
   </div>
+  -->
 
   <!-- CONTACT -->
   <div class="about">
-    <div class="about-close-button">
-      <a href="#" class="menu"><img src="images/close.svg"></a>
-    </div>
-    <div class="logo-contact">
-      <a href="/"><img src="images/logo2.svg"></a>
+    <div class="nav-about">
+      <a href="#" class="menu slider-about"><img src="images/close.svg" data-src="images/close.svg" alt="Close"></a>
     </div>
     <div class="tile tile-about">
       <div class="text-about">
-        <p>Hi, I'm Daniel, a visual &amp; interaction designer.</p>
-        <p>I have passion about concept development and designing unique experiences. Currently,
-          I work at Telefónica Innovation in Barcelona. In the past, I've lived in Sweden,
-          UK and Italy, where I've met some awesome people at great places like North Kingdom or Insight.
-          Besides design, I'm interested in data analysis and machine learning.</p>
+        <h1>Hello, I'm Daniel</h1>
+        <p>I've been designing digital products since 2011. I redesigned Kernel's analysis tool 
+          for medical teams; I designed Shootr and Shootr’s Chat service; and I helped to design 
+          Telefonica’s Niji.</p>
+        <p class="text-about-mobile-hidden">Before, I enjoyed a few years of cold and northern lights 
+          in the swedish Lapland. I studied a master in HCI; I researched about design for unobtrusive 
+          interfaces; and I designed for brands such as Benetton and Swedish Television at North Kingdom.</p>
+        <p>Aside from this I believe that technology can have a positive impact in the world. I am 
+          passionate for data analysis and understanding new technologies, systems and bussineses. I use 
+          this passion to invest in or design for the companies of the future.</p>
+        <p>Currently I live in Barcelona, but originaly I’m from the small region of La Rioja, Spain.</p>
+        <p class="text-about-mobile-hidden">Thanks for stopping by.</p>
+        <!--       
+        <p>You can reach me through email at 
+          <a class="link-about" href="mailto:mail@danielred.com">mail@danielred.com</a> or on 
+          <a class="link-about" href="https://www.linkedin.com/in/daniel-redondo-4a903325/" target="_blank" rel="noopener noreferrer">Linkedin</a>.
+        </p>
+        -->
       </div>
     </div>
-    <div class="links-contact">
-      <a href="mailto:mail@danielred.com"><h3>email</h3></a>
-      <a href="https://www.linkedin.com/in/daniel-red-4a903325/" target=_blank><h3>Linkedin</h3></a>
+    <div class="about-image">
+      <img src="images/about.png" data-src="images/about.png" alt="Unobtrusive interaction">
     </div>
+    <!--
+    <div class="links-about">
+      <ul>
+        <li><a href=mailto:mail@danielred.com>mail@danielred.com</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniel-redondo-4a903325/">Linkedin</a></li>
+      </ul>
+    </div>
+    -->
   </div>
 
   <header class="tile-header">
     <div class="header-title">
-      <h1>I'm Daniel Red, a visual<br>and interaction designer</h1>
+      <h1>I'm Daniel Redondo, a product designer currently living in Barcelona</h1>
     </div>
   </header>
 
@@ -278,3 +306,4 @@
     });
 
 </script>
+</html>
