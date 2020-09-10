@@ -4,15 +4,17 @@ $(document).scroll(function () {
     if (y > 50) {
         $('.logo').fadeOut(0);
         $('.header-title').fadeOut();
+        $('.nav').fadeOut();
     } else {
-        $('.anchor').fadeOut('fast');
-        $('.nav-fixed').fadeOut(0);
+        //$('.anchor').fadeOut('fast');
+        //$('.nav-fixed').fadeOut(0);
         $('.logo').fadeIn();
         $('.header-title').fadeIn();
+        $('.nav').fadeIn();
     }
 });
 
-// SCROLL BAR APPEARS WHEN SCROLLING UP (AND IT IS NOT IN THE VERY TOP)
+// SCROLL BAR APPEARS WHEN SCROLLING UP (AND IT IS NOT AT THE VERY TOP)
 
 $(window).scroll(
   {
@@ -26,7 +28,7 @@ $(window).scroll(
         $(".anchor").fadeIn();
     } else {
         $(".nav-fixed").fadeOut();
-        $(".anchor").fadeOut();
+        //$(".anchor").fadeOut();
     }
     this.previousTop = currentTop;
 });
