@@ -524,7 +524,6 @@ header{
 
 .tile-case{
 	float: left;
-	display: inline-block;
 	width: 100%;
 	height: auto;
 }
@@ -546,8 +545,8 @@ figure img{
 }
 
 .tile-image video{
-	width: 100%;	!important
-	height: auto;	!important
+	width: 100%	!important;
+	height: auto !important;
 	max-height: 100%;
 }
 
@@ -770,8 +769,8 @@ figure img{
 .video {
     margin: 0;
     padding: 0;
-    width: 100%;	!important
-    height: auto;	!important
+    width: 100%	!important;
+    height: auto !important;
     max-height: 100%;
     z-index: 900;
 }
