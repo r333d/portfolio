@@ -6,7 +6,7 @@ $(document).scroll(function () {
         $('.header-title').fadeOut();
         $('.nav').fadeOut();
     } else {
-        //$('.anchor').fadeOut('fast');
+        $('.anchor').fadeOut('fast');
         //$('.nav-fixed').fadeOut(0);
         $('.logo').fadeIn();
         $('.header-title').fadeIn();

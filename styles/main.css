@@ -709,9 +709,9 @@ figure img{
 
 .tile-case-description{
 	text-align: left;
-  width: 75%;
-  max-width: 800px;
-  padding: 8em 100% 8em 5%;
+  	width: 75%;
+  	max-width: 800px;
+  	padding: 8em 5% 8em 5%;
 }
 
 @media (max-width: 600px){
