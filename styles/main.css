@@ -19,7 +19,6 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-/* Test */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, nav, section {
@@ -180,7 +179,9 @@ body{
 	text-rendering:optimizeLegibility}
 
 ::selection{
-	background:#e30913}
+	background:#e30913;
+	color: #fff;
+}
 
 header{
 	top:0;
