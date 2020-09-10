@@ -459,19 +459,22 @@ header{
 	font-weight: 400;
 }
 
-@media (max-width: 1000px){
+@media (min-width: 2500px){
 	.tile-header{
 		height: 40%;
 	}
+}
+
+@media (max-width: 1000px){
 	.header-title{
 		top: 150px;
 		width: 80%;
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
 	.tile-header{
-		height: 50%;
+		height: 60%;
 	}
 	.header-title{
 		width: 90%;
