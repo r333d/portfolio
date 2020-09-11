@@ -576,11 +576,11 @@ figure img{
 .title-case{
 	text-align: left;
 	width: 60%;
-	margin: 65px auto 0 auto;
+	margin: 6em auto 0 auto;
 	max-width: 650px;
 }
 
-.description {
+.description{
 	text-align: left;
 	width: 60%;
 	max-width: 650px;
@@ -588,35 +588,18 @@ figure img{
 	line-height: 1.5;
 }
 
-.tile-contact-bottom{
-	clear: both;
-	width: 100%;
-	padding: 7em 0;
-	background-color: #e7e7e7;
-}
-
-.contact-bottom-container{
-	margin: 0 auto;
-	width: 80%;
-}
-
-.contact-bottom-title {
-	width: 100%;
-	display: block;
-	text-align: center;
-}
-
-@media (max-width: 600px){
-	.tile-contact-bottom{
-		padding: 4em 0 2em 0;
-	}
+.button-case{
+	width: 60%;
+	max-width: 650px;
+	margin: 2em auto 7em auto;
+	height: 60px;
 }
 
 .button{
 	display: block;
 	width: 200px;
 	height: 60px;
-	margin: 4em auto 10em auto;
+	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -634,8 +617,11 @@ figure img{
 }
 
 @media (max-width: 600px){
-	.button{
-		margin: 4em auto;
+	.title-case{
+		margin-top: 4em;
+	}
+	.button-case{
+		margin-bottom: 5em;
 	}
 }
 
@@ -643,10 +629,55 @@ figure img{
 	background-color: #444;
 }
 
+.tile-contact-bottom{
+	clear: both;
+	width: 100%;
+	padding: 7em 0;
+	background-color: #e7e7e7;
+}
+
+.contact-bottom{
+	margin: 0 auto;
+	width: 60%;
+	max-width: 650px;
+	display: block;
+}
+
+.contact-bottom h1{
+	text-align: left;
+	font-weight: 400;
+}
+
+@media (max-width: 600px){
+	.tile-contact-bottom{
+		padding: 4em 0 2em 0;
+	}
+}
+
 @media (min-width: 600px){
 	.tile-article{
 		padding: 10em 0 5em 0;
 	}
+}
+
+.contact-bottom-links{
+	margin: 2em auto 0 auto;
+	width: auto;
+}
+
+.contact-bottom-links ul li{
+	display: inline;
+	padding-right: 40px;
+}
+
+.contact-bottom-links ul li a{
+	padding: 2px 5px;
+	color: #e30913;
+}
+
+.contact-bottom-links a:hover{
+	background-color: #F9CED0;
+	color:#e30913;
 }
 
 #kernel-1{
@@ -721,7 +752,7 @@ figure img{
 	text-align: left;
   	width: 75%;
   	max-width: 800px;
-  	padding: 8em 5% 8em 0;
+  	padding: 8em 5% 8em 5%;
 }
 
 @media (max-width: 600px){
